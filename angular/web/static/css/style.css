@@ -1,0 +1,39 @@
+.menu-bar {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+}
+.menu-bar .menu-right {
+  float: right;
+  margin-top: 30px;
+  margin-right: 60px;
+  font-size: 16px;
+  font-weight: 900;
+}
+.main-section {
+  overflow: hidden;
+  background: #fff;
+  margin: 5px 5px 5px 5px;
+  box-shadow: 5px 5px 5px #D0D0D4;
+}
+.main-section .item {
+  margin: 20px 10px 30px 20px;
+  background: #DBDBDB;
+  padding: 20px 20px 20px 20px;
+}
+.sub-section {
+  overflow: hidden;
+  box-shadow: 5px 5px 5px #D0D0D4;
+  background: #fff;
+  margin: 5px 5px 5px 5px;
+}
+.sub-section li {
+  margin: 20px 10px 30px 20px !important;
+  background: #DBDBDB !important;
+  padding: 20px 20px 20px 20px !important;
+}
+.logo {
+  float: left;
+  margin-top: 35px;
+  margin-left: 40px;
+}

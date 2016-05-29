@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+{% load static%}
+<head>
+<link rel="stylesheet" href="static/css/bootstrap-3.3.6/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="{% static 'css/fb-styles.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/magnific-popup.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+<script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'css/bootstrap-3.3.6/dist/js/bootstrap.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+</head>
+<body style="background:#DBDBDB;">
+
+{% block content %}
+
+{% endblock %}
+<script src="static/js/jquery.tmpl.min.js"></script>
+<script id="headingTpl" type="text">
+<h1>${name}<span>on Facebook</span></h1>
+</script>
+<script src="static/js/script.js"></script>
+</body>
+</html>
+
+
+
